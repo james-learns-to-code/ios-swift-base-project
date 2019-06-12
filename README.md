@@ -12,7 +12,6 @@ Provide pre-configured project for develop iOS Project with Swift.
 
 * Homebrew
 * CocoaPods
-* SwiftGen
 * SwiftLint
 
 ## Steps
@@ -43,3 +42,13 @@ Provide pre-configured project for develop iOS Project with Swift.
 
 1. Create .gitignore file and input script followed by this repository's .gitignore file
 2. Commit and push source
+
+## SwiftGen
+
+If you want to use SwiftGen, follow steps below
+
+1. Install SwiftGen
+2. Add 'SwiftGen' pod
+3. Add run script phase followed by this repository's xcodeproj file
+4. Create swiftgen.yml and input script followed by this repository's swiftgen.yml file
+5. Build and find Assets.swift file and move to project
