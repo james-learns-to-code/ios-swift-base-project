@@ -10,10 +10,10 @@
 		1C1209B022B0DE99005D0972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1209AF22B0DE99005D0972 /* AppDelegate.swift */; };
 		1C1209B222B0DE99005D0972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1209B122B0DE99005D0972 /* ViewController.swift */; };
 		1C1209B522B0DE99005D0972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1209B322B0DE99005D0972 /* Main.storyboard */; };
-		1C1209B722B0DE99005D0972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1209B622B0DE99005D0972 /* Assets.xcassets */; };
 		1C1209BA22B0DE99005D0972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1209B822B0DE99005D0972 /* LaunchScreen.storyboard */; };
 		1C1209C522B0DE9A005D0972 /* BaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1209C422B0DE9A005D0972 /* BaseProjectTests.swift */; };
 		1C1209D022B0DE9A005D0972 /* BaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1209CF22B0DE9A005D0972 /* BaseProjectUITests.swift */; };
+		1C93AFC222B1398100C6105B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C93AFC122B1398100C6105B /* Assets.xcassets */; };
 		77E51B4336D2E2AB14E53FA7 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C72B98D968C2E5264CC41B6 /* Pods_BaseProject.framework */; };
 		BFC9E84AFF25960F5EDF9FB1 /* libPods-BaseProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1A6A20967138EEC099ACBE /* libPods-BaseProjectUITests.a */; };
 		CA0DEAF95BDD75AD4ACEA4D6 /* libPods-BaseProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A22E9ADBC8272E23CA3965D /* libPods-BaseProjectTests.a */; };
@@ -41,7 +41,6 @@
 		1C1209AF22B0DE99005D0972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C1209B122B0DE99005D0972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C1209B422B0DE99005D0972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1C1209B622B0DE99005D0972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C1209B922B0DE99005D0972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1209BB22B0DE99005D0972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1209C022B0DE99005D0972 /* BaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,8 @@
 		1C1209DD22B0E119005D0972 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		1C1209DE22B0E119005D0972 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		1C93AFA922B1130700C6105B /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		1C93AFC122B1398100C6105B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C93AFC322B1399700C6105B /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
 		23C1E9C36FF6A75FAA492A1F /* Pods-BaseProjectUITests.analyze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectUITests.analyze.xcconfig"; path = "Target Support Files/Pods-BaseProjectUITests/Pods-BaseProjectUITests.analyze.xcconfig"; sourceTree = "<group>"; };
 		3F3709EBF08AF81A3E0A3C76 /* Pods-BaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-BaseProjectTests/Pods-BaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C1A6A20967138EEC099ACBE /* libPods-BaseProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,12 +121,13 @@
 		1C1209AE22B0DE99005D0972 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				1C93AFC022B1398100C6105B /* Resources */,
 				1C1209AF22B0DE99005D0972 /* AppDelegate.swift */,
 				1C1209B122B0DE99005D0972 /* ViewController.swift */,
 				1C1209B322B0DE99005D0972 /* Main.storyboard */,
-				1C1209B622B0DE99005D0972 /* Assets.xcassets */,
 				1C1209B822B0DE99005D0972 /* LaunchScreen.storyboard */,
 				1C1209BB22B0DE99005D0972 /* Info.plist */,
+				1C93AFC322B1399700C6105B /* swiftgen.yml */,
 				1C93AFA922B1130700C6105B /* .swiftlint.yml */,
 				1C1209DE22B0E119005D0972 /* LICENSE */,
 				1C1209DD22B0E119005D0972 /* README.md */,
@@ -149,6 +151,14 @@
 				1C1209D122B0DE9A005D0972 /* Info.plist */,
 			);
 			path = BaseProjectUITests;
+			sourceTree = "<group>";
+		};
+		1C93AFC022B1398100C6105B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C93AFC122B1398100C6105B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		216D429B9BA28D88D752790B /* Frameworks */ = {
@@ -184,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C1209D422B0DE9A005D0972 /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
+				1C93AFC422B139AF00C6105B /* SwiftGen */,
 				B23F022153C12A16A6635BEA /* [CP] Check Pods Manifest.lock */,
 				1C1209A822B0DE99005D0972 /* Sources */,
 				1C1209A922B0DE99005D0972 /* Frameworks */,
@@ -287,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C1209BA22B0DE99005D0972 /* LaunchScreen.storyboard in Resources */,
-				1C1209B722B0DE99005D0972 /* Assets.xcassets in Resources */,
+				1C93AFC222B1398100C6105B /* Assets.xcassets in Resources */,
 				1C1209B522B0DE99005D0972 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +355,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${CONFIGURATION}\" = \"Analyze\" ]; then\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\nfi\n";
+		};
+		1C93AFC422B139AF00C6105B /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
 		};
 		B23F022153C12A16A6635BEA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
