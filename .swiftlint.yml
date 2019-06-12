@@ -1,0 +1,19 @@
+included:
+  - BaseProject
+excluded:
+  - Pods
+
+line_length: 1000
+identifier_name:
+  allowed_symbols:
+    - T
+  excluded:
+    - id
+
+disabled_rules:
+  - force_cast
+  - force_try
+
+type_body_length: 1000
+
+reporter: "xcode"
