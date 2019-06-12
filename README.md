@@ -12,7 +12,6 @@ Provide pre-configured project for develop iOS Project with Swift.
 
 * Homebrew
 * CocoaPods
-* SwiftGen
 * SwiftLint
 
 ## Steps
