@@ -38,3 +38,8 @@ Provide pre-configured project for develop iOS Project with Swift.
 5. In Target setting, select 'Build Phase' and select '+'. Select 'New Run Script Phase'. Input script followed by this repository's xcodeproj file
 6. Create .swiftlint.yml file Input script followed by this repository's .swiftlint.yml file
 7. Edit code if lint shows warning
+
+### Git ignore
+
+1. Create .gitignore file and input script followed by this repository's .gitignore file
+2. Commit and push source
