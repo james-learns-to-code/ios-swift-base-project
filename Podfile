@@ -7,6 +7,10 @@ inhibit_all_warnings!
 # Ignore warning from specific pod
 # pod 'Realm', :inhibit_warnings => true
 
+def common_pods
+  pod 'SwiftGen', '~> 6.0'
+end
+
 def common_pods_for_test
   pod 'Quick', '2.1.0'
   pod 'Nimble', '8.0.1'
@@ -20,6 +24,7 @@ end
 target 'BaseProject' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  common_pods
   common_pods_for_analyze
 end
 
