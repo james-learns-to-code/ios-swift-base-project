@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAnalyzer (0.4.6)
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+  - SwiftLint (0.31.0)
+
+DEPENDENCIES:
+  - CocoaAnalyzer (= 0.4.6)
+  - Nimble (= 8.0.1)
+  - Quick (= 2.1.0)
+  - SwiftLint (= 0.31.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAnalyzer
+    - Nimble
+    - Quick
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CocoaAnalyzer: 02e644594d2935d887f160fe1349ee80687a3fd3
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+
+PODFILE CHECKSUM: cfc92a70486987d13255463ebacd3675263ad699
+
+COCOAPODS: 1.7.1
