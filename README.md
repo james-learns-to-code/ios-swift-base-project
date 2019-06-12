@@ -42,3 +42,6 @@ Provide pre-configured project for develop iOS Project with Swift.
 
 1. Create .gitignore file and input script followed by this repository's .gitignore file
 2. Commit and push source
+
+## SwiftGen
+If you want to use SwiftGen, go to swift_gen branch and follow README
