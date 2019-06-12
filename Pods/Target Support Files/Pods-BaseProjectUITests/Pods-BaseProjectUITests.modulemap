@@ -1,6 +1,0 @@
-module Pods_BaseProjectUITests {
-  umbrella header "Pods-BaseProjectUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
